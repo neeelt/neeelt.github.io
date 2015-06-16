@@ -9,6 +9,6 @@ function myFunction() {
   $( "#toggle" ).toggle( "highlight" );
 });*/
 
-$(div).click(function () {
-      $(this).effect("highlight", {}, 3000);
+$(document).click(function () {
+      $("#toggle").effect("highlight", {}, 3000);
 });
