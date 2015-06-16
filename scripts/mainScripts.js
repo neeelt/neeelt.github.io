@@ -12,3 +12,10 @@ function myFunction() {
 $(document).click(function () {
       $("#toggle").effect("highlight", {}, 3000);
 });
+
+
+$( "#clickme" ).click(function() {
+  $( "#book" ).slideToggle( "slow", function() {
+    // Animation complete.
+  });
+});
