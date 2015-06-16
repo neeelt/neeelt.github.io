@@ -5,6 +5,10 @@ function myFunction() {
     alert(document.getElementById("txtOne").value);
 }
 
-$( document ).click(function() {
+/*$( document ).click(function() {
   $( "#toggle" ).toggle( "highlight" );
+});*/
+
+$(document).click(function () {
+      $(this).effect("highlight", {}, 3000);
 });
