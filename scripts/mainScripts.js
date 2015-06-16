@@ -5,3 +5,6 @@ function myFunction() {
     alert(document.getElementById("txtOne").value);
 }
 
+$( document ).click(function() {
+  $( "#toggle" ).toggle( "highlight" );
+});
