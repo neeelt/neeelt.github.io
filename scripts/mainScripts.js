@@ -5,14 +5,14 @@ function myFunction() {
     alert(document.getElementById("txtOne").value);
 }
 
-/*$( document ).click(function() {
+$( document ).click(function() {
   $( "#toggle" ).toggle( "highlight" );
-});*/
-
-$(document).click(function () {
-      $("#toggle").effect("highlight", {}, 3000);
 });
 
+/*$(document).click(function () {
+      $("#toggle").effect("highlight", {}, 3000);
+});
+*/
 
 $( "#clickme" ).click(function() {
   $( "#book" ).slideToggle( "slow", function() {
