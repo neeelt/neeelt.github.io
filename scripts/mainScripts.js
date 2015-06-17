@@ -21,8 +21,8 @@ $(document).ready(function(){
 		$( "#toggle" ).toggle( "highlight" );
 	});
 	
-	$( "button" ).click(function() {
-		alert("Here is some text!")
+	$( "#actionButton" ).click(function() {
+		//alert("Here is some text!")
 		$( "#book" ).slideToggle( "slow" );
 	});
 
