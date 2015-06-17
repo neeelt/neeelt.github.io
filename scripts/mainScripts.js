@@ -16,7 +16,5 @@ $( document ).click(function() {
 
 $( "button" ).click(function() {
   alert("Here is some text!")
-  $( "#book" ).slideToggle( "slow", function() {
-    // Animation complete.
-  });
+  $( "#book" ).slideToggle( "slow" );
 });
