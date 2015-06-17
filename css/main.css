@@ -42,8 +42,13 @@ ul.posts li {
     list-style: none;
 }
 
+.body{
+background-color: #CCFF66
+}
+
 .blurb{
 background-color: #CCFF66
+font-family:'Gisha', 'Arial', 'Sans-Serif';
 }
 
 .one{
