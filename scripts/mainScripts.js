@@ -5,16 +5,25 @@ function myFunction() {
     alert(document.getElementById("txtOne").value);
 }
 
-$( document ).click(function() {
-  $( "#toggle" ).toggle( "highlight" );
-});
+
 
 /*$(document).click(function () {
       $("#toggle").effect("highlight", {}, 3000);
 });
 */
 
-$( "button" ).click(function() {
-  alert("Here is some text!")
-  $( "#book" ).slideToggle( "slow" );
+
+
+
+$(document).ready(function(){
+	
+	$( document ).click(function() {
+		$( "#toggle" ).toggle( "highlight" );
+	});
+	
+	$( "button" ).click(function() {
+		alert("Here is some text!")
+		$( "#book" ).slideToggle( "slow" );
+	});
+
 });
