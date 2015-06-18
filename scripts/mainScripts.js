@@ -24,6 +24,7 @@ $(document).ready(function(){
 	$( "#actionButton" ).click(function() {
 		//alert("Here is some text!")
 		$( "#book" ).slideToggle( "slow" );
+		$("#actionButton").text("jQUERY VOO-DOO FOOL!!!!")
 	});
 
 });
