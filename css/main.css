@@ -48,8 +48,9 @@ background-color: #CCFF66;
 
 .blurb{
 background-color: #B8944D;
-padding: 5px;
-margin:4px;
+border-style: solid;
+border-width: 5px;
+margin:6px, 6px;
 font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
 }
 
